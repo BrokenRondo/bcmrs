@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="main_title_bar">#507CE9</color>
+
+    <!--状态栏颜色-->
+
+    <color name="main_background">#507CE9</color>
+
+    <!--主背景色-->
+
+    <color name="light_blue">#519CE8</color>
+
+    <!--浅蓝色-->
+
+
+    <color name="blue">#507CE9</color>
+
+    <!--蓝色-->
+
+
+    <color name="white">#FFFFFF</color>
+
+    <!--白色-->
+
+
+    <color name="black">#000000</color>
+
+    <!--黑色-->
+
+
+    <color name="transparent">#00000000</color>
+
+    <!--透明色-->
+
+
+    <color name="transparent_white">#A0FFFFFF</color>
+
+    <!--半透明白色-->
+
+
+    <color name="transparent_grey">#55858585</color>
+
+    <!--半透明灰色-->
+
+    <!--下方为二维码扫描模块颜色-->
+
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- QRCode scanner color begin -->
+
+
+    <color name="viewfinder_mask">#60000000</color>
+
+    <color name="result_view">#B0000000</color>
+
+    <color name="viewfinder_frame">#90FFFFFF</color>
+
+    <color name="result_point_color">#C0FFFF00</color>
+
+    <color name="laser_color">#0F0</color>
+
+    <color name="corner_color">#00FF00</color>
+
+
+</resources>

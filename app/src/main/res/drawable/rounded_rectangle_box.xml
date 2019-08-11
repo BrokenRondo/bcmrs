@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 边缘线条颜色 -->
+    <stroke
+        android:width="3dp"
+        android:color="@color/main_background" />
+    <!-- 圆角的幅度 -->
+    <corners
+        android:radius="15dp" />
+
+</shape>

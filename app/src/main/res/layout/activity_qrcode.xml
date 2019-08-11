@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    android:gravity="top|center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainTitleBar"
+        android:background="@color/main_title_bar"
+        android:visibility="gone">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/qrc_editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入需要生成二维码的内容" />
+
+        <Button
+            android:id="@+id/qrc_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="生成二维码" />
+
+        <EditText
+            android:id="@+id/qrc_editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入需要校验二维码的内容" />
+
+        <Button
+            android:id="@+id/qrc_button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="扫描二维码" />
+
+        <Button
+            android:id="@+id/button_recoverkey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_rounded_rectangle"
+            android:text="恢复密钥" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tzb.bcmrs">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 摄像头权限 -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:fitsSystemWindows="true">
+        <activity android:name=".activities.AuthorizeActivity"></activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.BaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.google.zxing.activity.CaptureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.QRCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.KeygenActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".view.SecondActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.ShowkeyActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activities.secretsharingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.DoSecretSharingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.DoStegActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.DecodeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".view.Listview"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shared_prople">
+        <item>  \u2000 3人</item>
+        <item>  \u2000 4人 </item>
+        <item>  \u2000 5人</item>
+        <item>  \u2000 6人</item>
+        <item> \u2000 7人</item>
+        <item> \u2000 8人</item>
+        <item>  \u2000 9人</item>
+    </string-array>
+</resources>
